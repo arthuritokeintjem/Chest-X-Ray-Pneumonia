@@ -1,9 +1,9 @@
 # Chest-X-Ray-Pneumonia
 
-Dataset:
+Command to Download Dataset using Notebook:
+
 import kagglehub
 
-# Download latest version
 path = kagglehub.dataset_download("paultimothymooney/chest-xray-pneumonia")
 
 print("Path to dataset files:", path)
